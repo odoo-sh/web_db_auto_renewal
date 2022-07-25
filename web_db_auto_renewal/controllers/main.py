@@ -20,7 +20,7 @@ class HomeExtended(Home):
         partner_code = False
         if partner_code_hash:
             partner_code = t7.decode(partner_code_hash)
-        if partner_code and (expiry_date < today):
+        if partner_code and expiry_date and (expiry_date < today):
             set_param('database.enterprise_code', partner_code)
             request.env['publisher_warranty.contract'].update_notification()
         return res
