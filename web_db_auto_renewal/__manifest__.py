@@ -1,4 +1,4 @@
-# Copyright 2020-22 Sodexis
+# Copyright 2022 Sodexis
 # License OEEL-1 (See LICENSE file for full copyright and licensing details).
 
 {
@@ -7,7 +7,7 @@
 
         This module allow will automatically renews the expired
          database when any user log in into that DB.""",
-    'version': "15.0.2.0.0",
+    'version': "16.0.1.0.0",
     'category': 'Uncategorized',
     'website': "http://sodexis.com/",
     'author': "Sodexis",
