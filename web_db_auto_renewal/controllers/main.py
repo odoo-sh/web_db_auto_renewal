@@ -3,7 +3,7 @@
 
 from passlib.hash import cisco_type7 as t7
 
-from odoo.addons.web.controllers.home import Home
+from odoo.addons.web.controllers.main import Home
 from odoo.http import request
 from odoo.tools import config, DEFAULT_SERVER_DATETIME_FORMAT
 from odoo import fields
